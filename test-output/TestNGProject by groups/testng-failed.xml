@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGProject by groups]">
+  <test thread-count="5" name="GRP-smoke(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="selenium.Testing3">
+        <methods>
+          <include name="homeTest"/>
+          <include name="mainTest"/>
+        </methods>
+      </class> <!-- selenium.Testing3 -->
+    </classes>
+  </test> <!-- GRP-smoke(failed) -->
+</suite> <!-- Failed suite [TestNGProject by groups] -->
